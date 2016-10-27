@@ -18,13 +18,14 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        Scanner reader= new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
         System.out.println("Enter a whole number");
-        int q= reader.nextInt();
-        for(int r=1; r<=q; r++){
-        System.out.println(Math.random());
+        int q = reader.nextInt();
+        
+        for (int r = 1; r <= q; r++) {
+            System.out.println(Math.random());
         }
-        // TODO code application logic here
+
     }
-    
+
 }
